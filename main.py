@@ -14,10 +14,9 @@ def crawl_sitemap():
     # Find all the URLs in the sitemap
     urls = [loc.text for loc in soup.find_all('loc')]
 
-    # Crawl each URL and print the response status code
+    # Crawl each URL
     for url in urls:
-        response = requests.get(url)
-        print(f'{url}: {response.status_code}')
+        requests.get(url)
 
 # Example usage: call the function to prompt the user for the sitemap URL
 crawl_sitemap()
