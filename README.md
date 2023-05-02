@@ -17,6 +17,14 @@ To install and use the sitemap crawler application, please follow these steps:
 2. Install the dependencies: pip install -r requirements.txt
 3. Run the application: python app.py
 
+## Docker Option
+
+Alternatively, you can use Docker to run the sitemap crawler application. Here are the instructions to do so:
+
+1. Install Docker on your machine: https://www.docker.com/products/docker-desktop
+2. Open a terminal window and navigate to the project directory.
+3. Build the Docker image and run the docker container: `docker-compose up`
+
 # Usage:
 To use the sitemap crawler application, please follow these steps:
 
