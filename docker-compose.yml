@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV_VAR=development
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.html
+    ports:
+      - "8080:80"
