@@ -3,6 +3,8 @@ To get an overview of the project, read the README.
 If you spot an issue with the project, you can make your changes and create a pull request for a review.
 ## Pull Request
 When you're finished with the changes, create a pull request, also known as a PR.
+Create a pull request and specify if this is aa fix for an issue that was uploaded by the members.
+If not make sure that you state excatly what changes or additions were made and why you think they are needed for the project.
 
 Fill the "Ready for review" template so that we can review your PR. This template helps reviewers understand your changes as well as the purpose of your pull request.
 Don't forget to link PR to issue if you are solving one.
